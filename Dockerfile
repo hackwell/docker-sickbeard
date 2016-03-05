@@ -4,7 +4,7 @@ MAINTAINER Tim Haak <tim@haak.co>
 ENV SICKBEARD_VERSION master
 
 RUN apt-get -q update &&\
-    apt-get install -qy --force-yes python-cheetah && \
+    apt-get install -qy --force-yes python-cheetah python-openssl && \
     curl -L https://github.com/midgetspy/Sick-Beard/tarball/$SICKBEARD_VERSION -o sickbeard.tgz && \
     tar -xvf sickbeard.tgz -C /  &&\
     mv /midgetspy-Sick-Beard-* /sickbeard/ &&\
