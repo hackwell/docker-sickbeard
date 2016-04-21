@@ -1,5 +1,5 @@
-FROM timhaak/base:latest
-MAINTAINER Tim Haak <tim@haak.co>
+FROM hackwell/base:latest
+MAINTAINER Joerg Weller <docker@weller.cc>
 
 ENV SICKBEARD_VERSION master
 
