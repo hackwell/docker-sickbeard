@@ -1,4 +1,4 @@
-FROM hackwell/base:latest
+FROM timhaak/base:latest
 MAINTAINER Joerg Weller <docker@weller.cc>
 
 ENV SICKBEARD_VERSION master
